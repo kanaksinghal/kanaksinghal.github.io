@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
 }
-p {
+p, .p {
 	font-size: 17px;
 	color: #777777;
 	line-height: 30px;
@@ -57,35 +57,41 @@ li, ul {
   Common Styles
 =======================*/
 .pt100 {
-	padding-top: 100px;
+	padding-top: 100px !important;
 }
 .pb100 {
-	padding-bottom: 100px;
+	padding-bottom: 100px !important;
 }
 .mb100 {
-	margin-bottom: 100px;
+	margin-bottom: 100px !important;
 }
 .mb70 {
-	margin-bottom: 70px;
+	margin-bottom: 70px !important;
 }
 .mb40 {
-	margin-bottom: 40px;
+	margin-bottom: 40px !important;
 }
 .mb20 {
-	margin-bottom: 20px;
+	margin-bottom: 20px !important;
 }
 .mb10 {
-	margin-bottom: 10px;
+	margin-bottom: 10px !important;
 }
 .mt10 {
-	margin-top: 10px;
+	margin-top: 10px !important;
 }
 .mt25 {
-	margin-top: 25px;
+	margin-top: 25px !important;
+}
+.mt35 {
+	margin-top: 35px !important;
+}
+.mt45 {
+	margin-top: 45px !important;
 }
 .nopad {
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .stitle {
 	text-align: center;

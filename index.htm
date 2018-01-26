@@ -2,13 +2,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Resume CV / vCard Portfolio</title>
+	<title>Kanak Singhal</title>
+
 	<meta charset="UTF-8">
 	<meta name="description" content="Resume CV / vCard Portfolio">
 	<meta name="keywords" content="cv, onepage, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!-- Favicon -->   
-	<link href="img/favicon.png" rel="shortcut icon"/>
+	<link rel="apple-touch-icon" sizes="57x57" href="meta/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="meta/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="meta/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="meta/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="meta/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="meta/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="meta/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="meta/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="meta/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="meta/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="meta/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="meta/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="meta/favicon-16x16.png">
+	<link rel="manifest" href="meta/manifest.json">
+	<meta name="msapplication-TileColor" content="#0a0c17">
+	<meta name="msapplication-TileImage" content="meta/ms-icon-144x144.png">
+	<meta name="theme-color" content="#0a0c17">
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -34,7 +52,7 @@
 	<!--====== Header Section Start ======-->
 	<header class="header-section">
 		<div class="logo">
-			<img src="img/logo.png" alt=""><!-- Logo -->
+			<img src="img/logo.svg" height="50px" alt=""><!-- Logo -->
 		</div>
 		<div class="responsive"><i class="fa fa-bars"></i></div>
 		<!-- Navigation -->
@@ -69,36 +87,73 @@
 		<section class="about-section fix" id="about">
 			<div class="container pt100 pb100">
 				<div class="row">
-					<div class="col-md-7 about-text">
+					<div class="col-md-7 about-text text-justify">
 						<h2>A short story about me.</h2>
-						<p>I am Kanak Singhal. Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Voice hours young woody.</p>
-						<a href="#" class="site-btn mt10">Download CV</a>
+						<p>I'm a <span class="text-primary">software engineer</span> Born in Jodhour (Rajasthan, India) and working in Pune (Maharastra, India). I've got a degree in Computer Science, a passon in programming, a mind in philosophy, and a job in CloudCover.</p>
+						<p><i>Looking for an answer to the question asked by <a href="https://www.google.co.in/search?q=Jim+Carrey" target="_blank">Jim Carrey</a> - "What does the world need, that your talents can provide?"</i></p>
+
+						<h3 class="mt45">Highlights</h3>
+						<ul class="mt10 p" style="margin-left: 40px">
+							<li>Key contribution in a popular movies and TV Show streaming app <a target="_blank" href="https://www.hooq.tv/">HOOQ.tv</a></li>
+							<li>Considerable contribution in a widely used B2B product <a target="_blank" href="https://www.spectralink.com/">Spectralink</a></li>
+							<li><b>Co-founded</b> an online food delivery application <a target="_blank" href="http://instavery.com/">instavery.com</a>; popular in my hometown and expanding.</li>
+						</ul>
+
+						<div class="mt35">
+							<img src="img/brands/Hooq-logo-yellow.png" class="img-rounded " style="background: #4e1656; padding: 5px; height: 30px; margin-right: 5px;">
+							<img src="img/brands/spectralink-logo-notag-latest-resize.png" class="" style="height: 30px; margin-right: 5px;">
+							<img src="img/brands/instavery.svg" style="background: #f44236; padding: 5px; height: 30px; margin-right: 5px;">
+						</div>
+						<!-- <a href="#" class="site-btn mt10">Download CV</a> -->
 					</div>
 					<div class="col-md-5 skill">
 						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Project Architecture</p>
-							<div class="progress-bar-style" data-progress="98"></div>
+						<div class="single-progress-item mb20">
+							<p>Languages</p>
+							<div class="">
+								<span class="label label-primary">JavaScript</span>
+								<span class="label label-default">Java</span>
+								<span class="label label-default">PHP</span>
+								<span class="label label-default">C++</span>
+							</div>
 						</div>
 						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Backend</p>
-							<div class="progress-bar-style" data-progress="98"></div>
+						<div class="single-progress-item mb20">
+							<p>Server Technology</p>
+							<div class="">
+								<div class="label label-primary">NodeJs</div>
+								<div class="label label-primary">ExpressJs</div>
+								<div class="label label-default">JSP</div>
+								<div class="label label-default">Servlets</div>
+							</div>
 						</div>
 						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Frontend</p>
-							<div class="progress-bar-style" data-progress="90"></div>
+						<div class="single-progress-item mb20">
+							<p>Client Technology</p>
+							<div class="">
+								<div class="label label-primary">JavaScript</div>
+								<div class="label label-primary">AngularJs</div>
+								<div class="label label-default">VueJs</div>
+								<div class="label label-default">ReactJs</div>
+								<div class="label label-default">ionic</div>
+							</div>
 						</div>
 						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>Operational</p>
-							<div class="progress-bar-style" data-progress="70"></div>
+						<div class="single-progress-item mb20">
+							<p>Database Platforms</p>
+							<div class="">
+								<div class="label label-primary">ElasticSearch</div>
+								<div class="label label-primary">MongoDB</div>
+								<div class="label label-primary">MySQL</div>
+							</div>
 						</div>
 						<!-- Skill item -->
-						<div class="single-progress-item">
-							<p>UX/UI Dedign</p>
-							<div class="progress-bar-style" data-progress="60"></div>
+						<div class="single-progress-item mb20">
+							<p>Cloud</p>
+							<div class="">
+								<div class="label label-primary">AWS</div>
+								<div class="label label-default">GCP</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -318,19 +373,19 @@
 					<div class="col-md-8 col-md-offset-2">
 						<div class="row">
 							<!-- Contact Info -->
-							<div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.2s">
+							<div class="col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.2s">
 								<i class="fa fa-phone"></i>
-								<p>12 345 670 90 00<br>000 123 45 67</p>
+								<p>+91 823333 5484</p>
 							</div>
 							<!-- Contact Info -->
-							<div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.4s">
+							<div class="col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.4s">
 								<i class="fa fa-map-marker"></i>
-								<p>300 South Main Street,<br>Sydney 56080</p>
+								<p>Yarawada, Pune<br>Maharastra, India</p>
 							</div>
 							<!-- Contact Info -->
-							<div class="col-md-4 col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.6s">
+							<div class="col-sm-4 contact-info wow fadeInUp" data-wow-delay="0.6s">
 								<i class="fa fa-send"></i>
-								<p>info@domain.com<br>contact@domain.com</p>
+								<p>kanaksinghalis@gmail.com</p>
 							</div>
 						</div>
 						<!-- Contact Form -->
@@ -368,8 +423,7 @@
 				<a href="#" class="dribbble"><i class="fa fa-dribbble"></i></a>
 				<a href="#" class="behance"><i class="fa fa-behance"></i></a>
 			</div>
-			<p>Copyright © 2017, All rights Reserved.</p>
-			<p>Created by FrozenTheme</p>
+			<p>Copyright © 2018, All rights Reserved.</p>
 		</div>
 	</footer>
 	<!-- ==== Footer Section End ==== -->
