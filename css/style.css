@@ -795,6 +795,18 @@ li, ul {
 .footer-section .social-links a.dribbble {
 	background: #DF7EA5;
 }
+.footer-section .social-links a.github {
+	background: #24292e;
+}
+.footer-section .social-links a.stackoverflow {
+	background: #f57f24;
+}
+.footer-section .social-links a.linkedin {
+	background: #0077B5;
+}
+.footer-section .social-links a.skype {
+	background: #00aff0;
+}
 .footer-section p {
 	font-size: 14px;
 	margin-bottom: 0;
