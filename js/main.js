@@ -80,7 +80,7 @@ $(window).on('load', function() {
 	--------------------*/
 	var fh = $('.footer-section').height();
 		fh = fh + 140;
-	$('.main-warp').css('margin-bottom', fh);
+// 	$('.main-warp').css('margin-bottom', fh);
 
 	
 
